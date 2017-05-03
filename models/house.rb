@@ -3,6 +3,7 @@ require_relative("../db/sql_runner.rb")
 class House
 
   attr_reader :id, :house_name, :logo
+
   def initialize(params)
     @id = params['id'].to_i
     @house_name = params['house_name']
@@ -22,20 +23,20 @@ class House
     SqlRunner.run(sql)
   end
 
-  #
-  # def Student.all()
-  #   sql ="SELECT * FROM students;"
-  #   returned_array = SqlRunner.run(sql)
-  #   students = returned_array.map {|student| Student.new(student)}
-  #   return students
-  # end
-  #
-  # def Student.find(id)
-  #   sql = "SELECT * FROM students WHERE id = '#{id}';"
-  #   returned_result = SqlRunner.run(sql)
-  #   student = Student.new(returned_result.first)
-  #   return student
-  # end
+
+  def House.all()
+    sql ="SELECT * FROM houses;"
+    returned_array = SqlRunner.run(sql)
+    houses = returned_array.map {|house| House.new(house)}
+    return houses
+  end
+
+  def House.find(id)
+    sql = "SELECT * FROM houses WHERE id = '#{id}';"
+    returned_result = SqlRunner.run(sql)
+    house = House.new(returned_result.first)
+    return house
+  end
 
 
 end
