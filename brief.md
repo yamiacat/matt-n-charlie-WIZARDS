@@ -1,19 +1,16 @@
-# Lab Day!
 
-Dumbledore has asked you to make a system for tracking student enrolments at Hogwarts.
-
-Each student has:
+<!-- Each student has:
 - A first name
 - A second name
 - A house
-- An age
+- An age -->
 
-Part 1:
+<!-- Part 1:
  - Create a Hogwarts database
- - Create a table for Students
+ - Create a table for Students -->
 
-Part 2
- - Create a ruby model that can save() a students details
+<!-- Part 2
+ - Create a ruby model that can save() a students details -->
  - Create some seed data to populate the database with students
 
 Part 3
