@@ -17,21 +17,21 @@ Part 3
 - Add methods to a student to
   - find all the students -->
   <!-- - find a student by id -->
-<!-- 
+<!--
 Part 4
 - Create a view to show all the students -->
-
+<!--
 Part 5
 - Create a view to create a new student
-  - hard code a drop down of house names
-
+  - hard code a drop down of house names -->
+<!-- 
 Part 6
 
 A house can be one of Gryffindor, Ravenclaw, Hufflepuff, or Slytherin and should be stored in the database with:
   - A name
   - Optionally, a url for a logo
 
-  - Create a table for Houses
+  - Create a table for Houses -->
   - Create a ruby model that can save() the details of a house
   - Seed the database
 
