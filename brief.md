@@ -11,7 +11,7 @@
 
 <!-- Part 2
  - Create a ruby model that can save() a students details -->
- - Create some seed data to populate the database with students
+ <!-- - Create some seed data to populate the database with students -->
 
 Part 3
 - Add methods to a student to
