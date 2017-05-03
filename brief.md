@@ -12,11 +12,11 @@
 <!-- Part 2
  - Create a ruby model that can save() a students details -->
  <!-- - Create some seed data to populate the database with students -->
-<!-- 
+<!--
 Part 3
 - Add methods to a student to
   - find all the students -->
-  - find a student by id
+  <!-- - find a student by id -->
 
 Part 4
 - Create a view to show all the students
