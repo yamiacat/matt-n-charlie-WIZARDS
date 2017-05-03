@@ -28,4 +28,18 @@ attr_reader :id, :first_name, :second_name, :house, :age
   end
 
 
+  def Student.all()
+    sql ="SELECT * FROM students;"
+    returned_array = SqlRunner.run(sql)
+    students = returned_array.map {|student| Student.new(student)}
+    return students
+  end
+
+  def Student.find(id)
+    sql = "SELECT * FROM students WHERE id = '#{id}';"
+    returned_result = SqlRunner.run(sql)
+    student = Student.new(returned_result.first)
+    return student
+  end
+
 end

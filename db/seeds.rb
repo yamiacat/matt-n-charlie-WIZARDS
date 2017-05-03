@@ -1,4 +1,6 @@
+require("pry-byebug")
 require_relative('../models/student.rb')
+
 
 Student.delete_all()
 
@@ -35,3 +37,6 @@ student1.save()
 student2.save()
 student3.save()
 student4.save()
+
+binding.pry
+nil
