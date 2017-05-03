@@ -17,9 +17,9 @@ Part 3
 - Add methods to a student to
   - find all the students -->
   <!-- - find a student by id -->
-
+<!-- 
 Part 4
-- Create a view to show all the students
+- Create a view to show all the students -->
 
 Part 5
 - Create a view to create a new student
