@@ -1,6 +1,7 @@
 require("sinatra")
 require("sinatra/contrib/all")
 require_relative("./models/student.rb")
+require_relative("./models/house.rb")
 
 # INDEX - READ (all)
 
@@ -12,6 +13,7 @@ end
 
 #NEW - CREATE (get form)
 get "/students/new" do
+  @houses = House.all()
   erb(:new)
 end
 
